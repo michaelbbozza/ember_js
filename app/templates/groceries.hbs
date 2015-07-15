@@ -1,0 +1,6 @@
+{{getGroceries}}
+{{touchFruit}}
+{{#each model as |item| }}
+  <h3 class='fruit'>Name: {{item.label}}</h3>
+  <h3>Price: {{item.price}}</h3>
+{{/each}}
